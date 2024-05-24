@@ -1,0 +1,20 @@
+body{
+    background: aliceblue;
+}
+
+h1{
+    color: rgb(220, 0, 147);
+}
+
+h2,h3{
+    color: rgb(255, 0, 191);
+}
+
+header{
+    background: rgb(236, 255, 247);
+}
+
+p{
+    color: rgb(0, 0, 85);
+}
+
