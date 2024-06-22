@@ -1,0 +1,57 @@
+/* Rodapé da seção principal */
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os links */
+    flex-wrap: wrap; /* Tratamento para quebra de linha */
+  }
+  
+  .footer a {
+    flex: 1 0 150px; /* Todos os links terão o mesmo tamanho mínimo */
+    text-align: center;
+  }
+  
+  /* Seção de benefícios */
+  .benefits {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do contêiner */
+    padding: 20px 0; /* Espaçamento interno para melhor visualização */
+  }
+  
+  .benefits .text {
+    flex: 0 0 70%;
+    padding-right: 10px;
+  }
+  
+  .benefits .title {
+    flex: 0 0 30%;
+    text-align: right;
+    padding-left: 10px;
+  }
+  
+  /* Seção de participação */
+  .participation {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do contêiner */
+    border-top: 1px solid #ccc; /* Linha no topo da seção */
+    padding: 20px 0; /* Espaçamento interno para melhor visualização */
+  }
+  
+  .participation .item {
+    flex: 0 0 50%;
+    text-align: center;
+  }
+  
+  /* Bordas para separar seções */
+  .benefits {
+    border-bottom: 0; /* Remove a borda inferior */
+  }
+  
+  .benefits + .participation {
+    border-top: 0; /* Remove a borda superior da seção de participação */
+  }
+  
+  .section-container {
+    border-bottom: 1px solid #ccc; /* Linha na parte inferior da última seção */
+  }
+  
