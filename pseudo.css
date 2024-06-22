@@ -1,0 +1,38 @@
+/* Links padrão */
+a {
+    color: #1f295c; /* Cor de destaque */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Links visitados */
+  a:visited {
+    font-weight: normal;
+    color: #1f295c; /* Pode ajustar a cor se necessário */
+  }
+  
+  /* Links em hover */
+  a:hover {
+    color: #3b4b8a; /* Tonalidade mais clara/escura para hover */
+  }
+  
+  /* Estilo para o primeiro parágrafo da seção principal */
+  .section-main p:first-of-type::first-letter {
+    font-size: 3em; /* Tamanho da fonte 3 vezes maior */
+    font-family: 'Georgia', serif; /* Fonte diferente da escolhida para o site */
+    float: left; /* Flutuando à esquerda */
+    margin-right: 8px; /* Espaço à direita para separação */
+    line-height: 1; /* Ajuste de altura de linha */
+  }
+  
+  /* Estilo para o menu de design */
+  .design-menu li {
+    list-style: none; /* Remover a marcação padrão da lista */
+    border-top: 1px solid #ccc; /* Borda superior em todos os itens */
+    padding: 10px 0; /* Espaçamento interno */
+  }
+  
+  /* Estilo para o último item do menu */
+  .design-menu li:last-child {
+    border-bottom: 1px solid #ccc; /* Borda inferior no último item */
+  }
