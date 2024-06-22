@@ -1,0 +1,23 @@
+/* Definir o elemento .page-wrapper como referência de posicionamento */
+.page-wrapper {
+    position: relative;
+  }
+  
+  /* Configurar o painel .explanation */
+  .explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+  }
+  
+  /* Mover o menu de designs para a direita da página */
+  .design-menu {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; /* Inclui padding na largura total */
+  }
